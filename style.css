@@ -111,7 +111,7 @@ footer{
   margin-top: auto;
 }
 
-@media (max-width: 428px) {
+@media (max-width: 720px) {
   .bikes-container{
     flex-direction: column;
     padding: 5% 3%;
