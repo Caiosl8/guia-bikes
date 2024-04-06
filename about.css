@@ -7,7 +7,7 @@
 .Sobre-container{
     display: flex;
    justify-content: space-between;
-   padding: 3rem 6rem 1rem ;
+   padding: 2% 0% 0% 10% ;
    width: 80%;
     flex-direction: row;
 }
