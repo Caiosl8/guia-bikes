@@ -41,6 +41,11 @@
     .historia{
         margin: 0;
         padding: 0;
+        width: auto;
+    }
+    .historia-img{
+        width: 25rem;
+        height: 25rem;
     }
   }
 
