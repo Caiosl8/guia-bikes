@@ -31,7 +31,7 @@
 @media (max-width: 720px) {
     .Sobre-container{
       flex-direction: column;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
         margin: 0;
         padding: 3% 5%;
