@@ -27,3 +27,11 @@
     box-shadow: 10px 10px 5px var(--cor-principal);
     height: 30rem;
 }
+
+@media (max-width: 1200px) {
+    .Sobre-container{
+      flex-direction: column;
+      
+    }
+  }
+

@@ -114,6 +114,10 @@ footer{
 @media (max-width: 1200px) {
   .bikes-container{
     flex-direction: column;
-    
+    padding: 1%;
   }
+  .bikes-container-img{
+    width: 70%;
 }
+
+
