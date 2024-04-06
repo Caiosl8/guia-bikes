@@ -111,7 +111,7 @@ footer{
   margin-top: auto;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 428px) {
   .bikes-container{
     flex-direction: column;
     padding: 5% 3%;
@@ -119,7 +119,7 @@ footer{
     
   }
   .bikes-container-img{
-    width: 80%;
+    width: 20rem;
 }
   .mais-buscadas{
     text-align: center;
