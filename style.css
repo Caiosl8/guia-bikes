@@ -116,9 +116,13 @@ footer{
     flex-direction: column;
     padding: 5% 3%;
     text-align: center;
+    
   }
   .bikes-container-img{
     width: 70%;
 }
-
+  .mais-buscadas{
+    text-align: center;
+  }
+}
 
