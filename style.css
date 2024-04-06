@@ -101,9 +101,11 @@ nav a{
 }
 
 footer{
-  padding: 1.5rem;
-  background-color: var(--cor-secudaria);
-  text-align:center ;
-  color: var(--cor-principal);
   display: flex;
+  justify-content: center;
+  background-color: var(--cor-secudaria);
+  align-items: center;
+  padding: 35px;
+  color: var(--cor-principal);
+  
 }
