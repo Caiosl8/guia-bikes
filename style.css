@@ -116,6 +116,8 @@ footer{
     flex-direction: column;
     padding: 5% 3%;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     
   }
   .bikes-container-img{
