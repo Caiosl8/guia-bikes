@@ -42,10 +42,13 @@
         margin: 0;
         padding: 0;
         width: auto;
+        text-align: center;
     }
     .historia-img{
-        width: 25rem;
-        height: 25rem;
+        width: 20rem;
+        height: 20rem;
+        padding: 2%;
+
     }
   }
 
