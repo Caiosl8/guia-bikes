@@ -28,7 +28,7 @@
     height: 30rem;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 1024px) {
     .Sobre-container{
       flex-direction: column;
       justify-content: space-between;
