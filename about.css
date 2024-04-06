@@ -7,11 +7,11 @@
 .Sobre-container{
     display: flex;
    justify-content: space-between;
-   padding: 2% 0% 0% 10% ;
+   padding: 2% 10% ;
    width: 80%;
     flex-direction: row;
     height: 100vh;
-    margin-bottom: 3rem;
+    
 }
 .historia{
     width: 60rem;
