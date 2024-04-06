@@ -31,24 +31,20 @@
 @media (max-width: 720px) {
     .Sobre-container{
       flex-direction: column;
-      
-    }
-    .Sobre-container{
+      justify-content: center;
         margin: 0;
-        padding: 1%;
+        padding: 3% 1%;
         height: auto;
     }
     .historia{
         margin: 0;
-        padding: 0;
+        padding: 1%;
         width: auto;
         text-align: center;
     }
     .historia-img{
         width: 20rem;
         height: 20rem;
-        padding: 2%;
-
     }
   }
 
