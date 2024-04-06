@@ -107,5 +107,6 @@ footer{
   align-items: center;
   padding: 35px;
   color: var(--cor-principal);
-  
+  flex-direction: column;
+  margin-top: auto;
 }
