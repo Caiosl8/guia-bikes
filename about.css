@@ -11,6 +11,7 @@
    width: 80%;
     flex-direction: row;
     height: 100vh;
+    margin-bottom: 3rem;
 }
 .historia{
     width: 60rem;
@@ -24,5 +25,5 @@
 .historia-img{
     width: 30rem;
     box-shadow: 10px 10px 5px var(--cor-principal);
-
+    height: 30rem;
 }
