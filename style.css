@@ -123,6 +123,8 @@ footer{
 }
   .mais-buscadas{
     text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 }
 
