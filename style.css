@@ -114,8 +114,8 @@ footer{
 @media (max-width: 1200px) {
   .bikes-container{
     flex-direction: column;
-    padding: 2% 3%;
-    justify-content: center;
+    padding: 5% 3%;
+    text-align: center;
   }
   .bikes-container-img{
     width: 70%;
