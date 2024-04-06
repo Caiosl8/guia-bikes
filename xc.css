@@ -77,7 +77,7 @@ footer{
 .txt-bike{
   display: flex;
     flex-direction: column;
-  padding: 0.8rem;
+  padding: 3rem;
   text-align:center;
   font-size: 1rem;
 }
