@@ -1,0 +1,82 @@
+:root{
+    --cor-principal: #ffd207 ;
+    --background: white;
+    --cor-secudaria: #333;
+  }
+  
+  *{
+      padding: 0;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Cabeçalho */
+  header{
+    background-color: var(--cor-secudaria); 
+    color: var(--cor-principal); 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  nav ul{
+      display: flex;
+      list-style: none;
+      gap: 1rem;
+  }
+  
+  nav a{
+     color: var(--cor-principal);
+     text-decoration: none; 
+  }
+  
+  /*Conteudo principal */
+  .bikes-container-model{
+     display: flex;
+     justify-content: space-between;
+     padding: 2rem 4rem 3rem;
+     
+  }
+  .bike-cotainer{
+    width: 25rem;
+  }
+  .categorias{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    
+  }
+  .categorias-lista-lista{
+    list-style: none;
+  }
+  
+  .modelos{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    text-align: center;
+    margin: 0 6rem;
+
+    }
+  
+  .item-modelo{
+    box-shadow: 3px 3px 10px var(--cor-principal);
+    padding: 2em;
+  }
+  
+  
+footer{
+  padding: 1.5rem;
+  background-color: var(--cor-secudaria);
+  text-align:center ;
+  color: var(--cor-principal);
+}
+
+.txt-bike{
+  display: flex;
+    flex-direction: column;
+  padding: 0.8rem;
+  text-align:center;
+}

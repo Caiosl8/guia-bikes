@@ -1,0 +1,104 @@
+@import url(about.css);
+@import url(xc.css);
+
+:root{
+  --cor-principal: #ffd207 ;
+  --background: white;
+  --cor-secudaria: #333;
+  --cor-hover:#ffe989;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Cabeçalho */
+header{
+  background-color: var(--cor-secudaria); 
+  color: var(--cor-principal); 
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+nav a{
+   color: var(--cor-principal);
+   text-decoration: none; 
+}
+
+/*Conteudo principal */
+.bikes-container {
+   display: flex;
+   justify-content: space-between;
+   padding: 2rem 4rem 3rem;
+   
+}
+.bikes-container-img{
+  width: 25rem;
+}
+.categorias{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+  
+}
+.categorias-lista-lista{
+  list-style: none;
+}
+.categorias-lista-botao{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-decoration: none;
+  color:var(--cor-secudaria) ;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background-color: var(--cor-principal);
+  border-radius: 10px;
+  font-weight: bold;
+  
+}
+
+.categorias-lista-botao:hover{
+  background-color: var(--cor-hover);
+}
+.mais-buscadas{
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  text-align: center;
+  padding-right: 30%;
+  }
+
+.item{
+  box-shadow: 3px 3px 10px var(--cor-principal);
+  padding: 2em;
+}
+
+.veja{
+  text-decoration: none;
+  color:var(--cor-secudaria) ;
+  font-weight: bold;
+}
+
+.veja:hover{
+  color: var(--cor-principal);
+}
+
+footer{
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: var(--cor-secudaria);
+  text-align:center ;
+  color: var(--cor-principal);
+}
