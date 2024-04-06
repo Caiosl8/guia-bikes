@@ -28,10 +28,19 @@
     height: 30rem;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 720px) {
     .Sobre-container{
       flex-direction: column;
       
+    }
+    .Sobre-container{
+        margin: 0;
+        padding: 1%;
+        height: auto;
+    }
+    .historia{
+        margin: 0;
+        padding: 0;
     }
   }
 
