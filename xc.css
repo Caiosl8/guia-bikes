@@ -81,7 +81,7 @@ footer{
   text-align:center;
   font-size: 1.3rem;
 }
-@media (max-width: 1200px) {
+@media (max-width: 720px) {
   .bikes-container-model{
     flex-direction: column;
     padding: 5% 3%;
@@ -93,6 +93,6 @@ footer{
 }
   .modelos{
     text-align: center;
- ;
+    padding: 1%;
   }
 }
