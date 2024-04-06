@@ -110,3 +110,10 @@ footer{
   flex-direction: column;
   margin-top: auto;
 }
+
+@media (max-width: 1200px) {
+  .bikes-container{
+    flex-direction: column;
+    
+  }
+}
